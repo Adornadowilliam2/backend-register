@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Box, Button, Container, FormControlLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
 import './App.css'
-import { CheckBox } from '@mui/icons-material';
+
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
           </Box>
         </Box>
         {/* remember the password */}
-        <FormControlLabel control={<CheckBox checked={checked} onChange={handleChange} />} label="I don't agree to the terms and condition"  />
+
       </Box>
     </Container>
   )
