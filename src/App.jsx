@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Box, Button, Container, FormControlLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
 import './App.css'
+import { CheckBox } from '@mui/icons-material';
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
           </Box>
         </Box>
         {/* remember the password */}
-
+        <CheckBox  />
       </Box>
     </Container>
   )
